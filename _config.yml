@@ -1,0 +1,13 @@
+# GitHub Pages configuration
+# Disable Jekyll plugins that might interfere
+plugins: []
+safe: true
+
+# Pass through our HTML as-is
+include:
+  - ".nojekyll"
+
+# Exclude non-web files
+exclude:
+  - "README.md"
+  - "*.zip"
